@@ -1,2 +1,2 @@
 # BaseballHOFAnalysis
-Machine Learning model from Lahman's baseball database to predict Hall of Fame induction for past MLB players
+This project used Jeff Lahman's database of all MLB players from 1883-present. Of all these players, only ones from the Live Ball Era (1920-present) were considered. Several different machine learning models were created and trained on this subset of the data in order to predict Hall of Fame inductance for all eligible players. All models were then reviewed, and the most accurate model was determined to be a Decision Tree model. This model correctly predicted induction/non-induction for over 87% of all eligible players, which was substantially better than all other models considered.  
